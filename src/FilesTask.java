@@ -104,6 +104,19 @@ public class FilesTask {
                 fos.close();
             }
         }
+		
+		
+		 if(file1.renameTo                                             //move
+		           (new File("C:\\Adirectioryyy\\moved.txt")))
+		        {
+		            
+		            file.delete();
+		            System.out.println("File moved successfully");
+		        }
+		        else
+		        {
+		            System.out.println("Failed to move the file");
+		        }
     
 	    
 		
